@@ -1,0 +1,18 @@
+1)pip install Django
+    This utilized pip to install the Django Framework.
+2)pip list
+    This listed all the installed packages.
+3)pip show Django
+    This showed information about the installed Django package.
+4)pip freeze
+    This shows ,the installed packages that are suitable for a requirements file. Freeze is different from list in that list lists all installed mpackages, including outdated versions and editable version.
+    Whereas, freeze, shows the installed packages in requirement format.
+5)pip freeze > requirements.txt
+    This created a requirements file and then installed from it in another file. Upon ls I saw the requirements.txt file which contained packages in requirement file format.
+6)pip uninstall Django
+    This, of course, uninstalled the Django Framework using pip.
+7)pip show Django
+    This time, it returned nothing because I have successfully uninstalled Django.
+8)pip search Flask
+    This returned all the available packages containg the word "flask", which took a few more seconds than did the other commands.
+    
